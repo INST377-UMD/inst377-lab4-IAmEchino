@@ -12,8 +12,10 @@
 
 #leftForms form {
     padding:2em;
-    border:2px solid royalblue;
-    background-color: black;
+    border:2px solid rgb(65, 105, 225); 
+    /* royal blue */
+    background-color: rgb(0, 0, 0);
+    /* black */
     margin:1em;
     padding:0.5em;
     text-align: center;
@@ -35,5 +37,5 @@ input {
 }
 
 body {
-    background-color: royalblue;
+    background-color: rgb(65, 105, 225);
 }
