@@ -10,19 +10,19 @@
 
 <body>
 
-    <h1>INST377 - Lab 4</h1>
+    <h1 id="titleText">INST377 - Lab 4</h1>
     
     <div id="leftForms">
 
-    <form action="">
-        <input type="text">
-        <input type="submit" value="Alert Me!">
-    </form>
-    
-    <form action="">
-        <input type="text">
-        <input type="submit" value="Validate Text">
-    </form>
+        <form action="javascript:alertName()" name="nameForm">
+            <input type="text" name="nameBox" required>
+            <input type="submit" value="Alert Me!">
+        </form>
+        
+        <form action="javascript:validateText()" name="textForm">
+            <input type="text" name="textBox">
+            <input type="submit" value="Validate Text">
+        </form>
 
     </div>
 
@@ -30,8 +30,8 @@
         <form action="javascript:changeColor()">
             <input type="submit" value="Change Color">
         </form>
-        <form>
-            <input type="submit" value="Add Text">
+        <form action="javascript:addText()">
+            <input type="submit" value="Add Text" >
         </form>
     </aside>
 
