@@ -1,0 +1,39 @@
+#rightForms {
+    width:35%;
+    float:right;
+
+}
+
+#leftForms {
+    width:50%;
+    float: left;
+
+}
+
+#leftForms form {
+    padding:2em;
+    border:2px solid royalblue;
+    background-color: black;
+    margin:1em;
+    padding:0.5em;
+    text-align: center;
+}
+
+input {
+    color: darkblue;
+    font-size: large;
+}
+
+#rightForms form {
+    padding:1em;
+    background-color:white;
+    margin:1em;
+    border:2px solid black;
+    color:white;
+    padding:1em;
+    text-align: center;
+}
+
+body {
+    background-color: royalblue;
+}
